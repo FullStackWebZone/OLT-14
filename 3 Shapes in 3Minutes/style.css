@@ -1,0 +1,47 @@
+*
+{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+	font-family: 'poppins';
+}
+body
+{
+	/*position: relative;*/
+	min-height: 100vh;
+	background: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hex
+{
+	position: relative;
+	width: 100px;
+	/*height: 58px;*/
+	/*height: 80px;*/
+	height: 40px;
+	background-color: lawngreen;
+}
+.hex::before
+{
+	content: '';
+	width: inherit;
+	height: inherit;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: lawngreen;
+	transform: rotate(60deg);
+}
+.hex::after
+{
+	content: '';
+	width: inherit;
+	height: inherit;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: lawngreen;
+	transform: rotate(-60deg);
+}

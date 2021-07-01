@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	
+	</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<div class="icon">
+					<img src="computer.png" alt="">
+				</div>
+				<div class="content">
+					<h3>Web & Mobile Development</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum animi, recusandae sit minima voluptatem deleniti molestiae architecto sapiente totam nam corporis eligendi, qui temporibus repellendus commodi culpa. Alias, molestiae, dicta.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum animi, recusandae sit minima voluptatem deleniti molestiae architecto sapiente totam nam corporis eligendi, qui temporibus repellendus commodi culpa. Alias, molestiae, dicta.</p>
+				</div>
+				<a class="more"></a>
+			</div>
+
+			<div class="card">
+				<div class="icon">
+					<img src="support.png" alt="">
+				</div>
+				<div class="content">
+					<h3>Customer Support</h3>
+					<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Similique ex maxime, nesciunt soluta asperiores eveniet facilis porro, placeat id, debitis inventore eligendi fugit, maiores sit ratione qui atque. Adipisci at sint, sed officia libero, voluptates nesciunt magni ea tempora vero numquam aspernatur velit ratione quam quas. Eaque, unde laudantium! Assumenda ad omnis eum nobis possimus sed. Enim, ullam nulla unde?</p>
+				</div>
+				<a class="more"></a>
+			</div>
+
+			<div class="card">
+				<div class="icon">
+					<img src="affiliate-marketing.png" alt="">
+				</div>
+				<div class="content">
+					<h3>Marketing & Communication</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Odit labore quos neque quod expedita, minima ut quae nulla sit fugit quasi, cumque, repudiandae, ipsa consequatur veniam. Temporibus, natus tenetur minus vero illum ea nostrum corrupti, maiores voluptates, facere suscipit provident deserunt perspiciatis impedit. Recusandae iste hic nisi dolorum eos vel sed cumque, culpa, harum. Ex optio quo quas eligendi placeat.</p>
+				</div>
+				<a class="more"></a>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			let more = document.querySelectorAll('.more');
+			for (let i = 0; i < more.length; i++) {
+				more[i].addEventListener('click', function(){
+					more[i].parentNode.classList.toggle('active')
+				})
+			}
+		</script>
+	</body>
+</html>
